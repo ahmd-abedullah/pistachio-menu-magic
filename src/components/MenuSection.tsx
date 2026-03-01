@@ -9,12 +9,18 @@ import { useCart } from "@/contexts/CartContext";
 import { Plus, Check, Loader2 } from "lucide-react";
 import { useState, useEffect } from "react";
 
-const AddButton = ({ name, price }: { name: string; price: number }) => {
+const formatPrice = (price: number) => {
+  return `${price.toLocaleString()} L.L`;
+};
+
+const AddButton = ({ name, price, label }: { name: string; price: number; label?: string }) => {
   const { addItem } = useCart();
   const [added, setAdded] = useState(false);
 
+  const cartName = label ? `${name} (${label})` : name;
+
   const handleAdd = () => {
-    addItem(name, price);
+    addItem(cartName, price);
     setAdded(true);
     setTimeout(() => setAdded(false), 800);
   };
@@ -23,7 +29,7 @@ const AddButton = ({ name, price }: { name: string; price: number }) => {
     <button
       onClick={handleAdd}
       className="flex-shrink-0 h-8 w-8 flex items-center justify-center rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
-      aria-label={`Add ${name} to cart`}
+      aria-label={`Add ${cartName} to cart`}
     >
       {added ? <Check className="h-4 w-4" /> : <Plus className="h-4 w-4" />}
     </button>
@@ -36,28 +42,17 @@ const MenuSection = () => {
   useEffect(() => {
     const fetchMenu = async () => {
       try {
-        // Try external API first
         const response = await fetch(
           "https://pistachio-menu-data.tiiny.site/menu.json",
         );
-
-        if (!response.ok) {
-          throw new Error("External API failed");
-        }
-
+        if (!response.ok) throw new Error("External API failed");
         const data = await response.json();
         setCategories(data);
       } catch (error) {
         console.warn("External API failed. Loading local fallback...", error);
-
         try {
-          // Fallback to local static file
           const localResponse = await fetch("/data/menu.json");
-
-          if (!localResponse.ok) {
-            throw new Error("Local fallback also failed");
-          }
-
+          if (!localResponse.ok) throw new Error("Local fallback also failed");
           const localData = await localResponse.json();
           setCategories(localData);
         } catch (localError) {
@@ -67,7 +62,6 @@ const MenuSection = () => {
         setLoading(false);
       }
     };
-
     fetchMenu();
   }, []);
 
@@ -105,22 +99,45 @@ const MenuSection = () => {
                 <AccordionContent>
                   <ul className="divide-y divide-border">
                     {cat.items.map((item) => (
-                      <li
-                        key={item.name}
-                        className="py-4 flex items-center gap-3"
-                      >
-                        <div className="flex-1 min-w-0">
-                          <h4 className="font-body font-bold text-foreground">
-                            {item.name}
-                          </h4>
-                          <p className="text-sm text-muted-foreground mt-0.5 leading-relaxed">
-                            {item.description}
-                          </p>
-                        </div>
-                        <span className="font-display font-bold text-primary whitespace-nowrap text-lg">
-                          ${item.price}
-                        </span>
-                        <AddButton name={item.name} price={item.price} />
+                      <li key={item.name} className="py-4">
+                        {item.sizes && item.sizes.length > 0 ? (
+                          <div>
+                            <div className="mb-2">
+                              <h4 className="font-body font-bold text-foreground">
+                                {item.name}
+                              </h4>
+                              <p className="text-sm text-muted-foreground mt-0.5 leading-relaxed">
+                                {item.description}
+                              </p>
+                            </div>
+                            <div className="flex flex-col gap-2 ml-4">
+                              {item.sizes.map((size) => (
+                                <div key={size.label} className="flex items-center gap-3">
+                                  <span className="text-sm text-muted-foreground w-16">{size.label}</span>
+                                  <span className="font-display font-bold text-primary whitespace-nowrap text-sm flex-1">
+                                    {formatPrice(size.price)}
+                                  </span>
+                                  <AddButton name={item.name} price={size.price} label={size.label} />
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        ) : (
+                          <div className="flex items-center gap-3">
+                            <div className="flex-1 min-w-0">
+                              <h4 className="font-body font-bold text-foreground">
+                                {item.name}
+                              </h4>
+                              <p className="text-sm text-muted-foreground mt-0.5 leading-relaxed">
+                                {item.description}
+                              </p>
+                            </div>
+                            <span className="font-display font-bold text-primary whitespace-nowrap text-lg">
+                              {formatPrice(item.price!)}
+                            </span>
+                            <AddButton name={item.name} price={item.price!} />
+                          </div>
+                        )}
                       </li>
                     ))}
                   </ul>

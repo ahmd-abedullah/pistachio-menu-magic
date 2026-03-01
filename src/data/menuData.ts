@@ -1,7 +1,13 @@
+export interface MenuItemSize {
+  label: string;
+  price: number;
+}
+
 export interface MenuItem {
   name: string;
   description: string;
-  price: number;
+  price?: number;
+  sizes?: MenuItemSize[];
 }
 
 export interface MenuCategory {

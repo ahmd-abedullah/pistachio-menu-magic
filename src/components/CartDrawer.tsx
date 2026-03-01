@@ -9,6 +9,8 @@ import { toast } from "sonner";
 
 const PHONE = "96176531977";
 
+const formatPrice = (price: number) => `${price.toLocaleString()} L.L`;
+
 const CartDrawer = ({ open, onClose }: { open: boolean; onClose: () => void }) => {
   const { items, removeItem, updateQuantity, clearCart, totalPrice } = useCart();
   const [phone, setPhone] = useState("");
@@ -51,10 +53,10 @@ const CartDrawer = ({ open, onClose }: { open: boolean; onClose: () => void }) =
     }
 
     const orderLines = items
-      .map((i) => `- ${i.name} x${i.quantity} – $${i.price * i.quantity}`)
+      .map((i) => `- ${i.name} x${i.quantity} – ${formatPrice(i.price * i.quantity)}`)
       .join("\n");
 
-    let msg = `🟢 New Order – PISTACHIO\n\n📦 Order Details:\n${orderLines}\n\n💰 Total: $${totalPrice}\n\n📞 Phone:\n${phone.trim()}`;
+    let msg = `🟢 New Order – PISTACHIO\n\n📦 Order Details:\n${orderLines}\n\n💰 Total: ${formatPrice(totalPrice)}\n\n📞 Phone:\n${phone.trim()}`;
 
     if (address.trim()) {
       msg += `\n\n📍 Address:\n${address.trim()}`;
@@ -76,7 +78,6 @@ const CartDrawer = ({ open, onClose }: { open: boolean; onClose: () => void }) =
     <AnimatePresence>
       {open && (
         <>
-          {/* Backdrop */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -85,7 +86,6 @@ const CartDrawer = ({ open, onClose }: { open: boolean; onClose: () => void }) =
             onClick={onClose}
           />
 
-          {/* Drawer */}
           <motion.div
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
@@ -93,7 +93,6 @@ const CartDrawer = ({ open, onClose }: { open: boolean; onClose: () => void }) =
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
             className="fixed right-0 top-0 bottom-0 z-50 w-full max-w-md bg-background shadow-2xl flex flex-col"
           >
-            {/* Header */}
             <div className="flex items-center justify-between p-4 border-b border-border">
               <h2 className="font-display text-xl font-bold flex items-center gap-2">
                 <ShoppingCart className="h-5 w-5 text-primary" />
@@ -104,19 +103,17 @@ const CartDrawer = ({ open, onClose }: { open: boolean; onClose: () => void }) =
               </button>
             </div>
 
-            {/* Body */}
             <div className="flex-1 overflow-y-auto p-4 space-y-4">
               {items.length === 0 ? (
                 <p className="text-center text-muted-foreground py-12">Your cart is empty</p>
               ) : (
                 <>
-                  {/* Cart Items */}
                   <ul className="space-y-3">
                     {items.map((item) => (
                       <li key={item.name} className="flex items-center gap-3 bg-card border border-border rounded-lg p-3">
                         <div className="flex-1 min-w-0">
                           <p className="font-bold text-sm truncate">{item.name}</p>
-                          <p className="text-xs text-muted-foreground">${item.price} each</p>
+                          <p className="text-xs text-muted-foreground">{formatPrice(item.price)} each</p>
                         </div>
                         <div className="flex items-center gap-1">
                           <button
@@ -136,7 +133,7 @@ const CartDrawer = ({ open, onClose }: { open: boolean; onClose: () => void }) =
                             <Plus className="h-3 w-3" />
                           </button>
                         </div>
-                        <span className="font-display font-bold text-primary w-14 text-right">${item.price * item.quantity}</span>
+                        <span className="font-display font-bold text-primary w-24 text-right text-sm">{formatPrice(item.price * item.quantity)}</span>
                         <button
                           onClick={() => removeItem(item.name)}
                           className="text-destructive hover:text-destructive/80 p-1"
@@ -148,13 +145,11 @@ const CartDrawer = ({ open, onClose }: { open: boolean; onClose: () => void }) =
                     ))}
                   </ul>
 
-                  {/* Total */}
                   <div className="flex justify-between items-center font-display text-lg font-bold border-t border-border pt-3">
                     <span>Total</span>
-                    <span className="text-primary">${totalPrice}</span>
+                    <span className="text-primary">{formatPrice(totalPrice)}</span>
                   </div>
 
-                  {/* Customer Details */}
                   <div className="space-y-3 border-t border-border pt-4">
                     <h3 className="font-display font-bold text-base">Your Details</h3>
 
@@ -199,7 +194,6 @@ const CartDrawer = ({ open, onClose }: { open: boolean; onClose: () => void }) =
               )}
             </div>
 
-            {/* Submit */}
             {items.length > 0 && (
               <div className="p-4 border-t border-border">
                 <Button className="w-full text-base font-bold h-12" onClick={submitOrder}>
