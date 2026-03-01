@@ -43,7 +43,7 @@ const MenuSection = () => {
     const fetchMenu = async () => {
       try {
         const response = await fetch(
-          "https://pistachio-menu-data.tiiny.site/menu.json",
+          "https://pistachio-menu-data.tiiny.site/menu-pistachio.json",
         );
         if (!response.ok) throw new Error("External API failed");
         const data = await response.json();
