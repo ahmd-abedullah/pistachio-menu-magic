@@ -4,13 +4,41 @@
     "title": "Hot Drinks",
     "icon": "☕",
     "items": [
-      {"name": "Espresso", "description": "Rich and bold single shot of pure Italian espresso", "price": 80000},
-      {"name": "Cappuccino", "description": "Velvety steamed milk over a perfect espresso base", "price": 120000},
-      {"name": "Mocaccino", "description": "Rich chocolate meets bold espresso and steamed milk", "price": 140000},
-      {"name": "Latte macchiato", "description": "Layered espresso with steamed milk and foam", "price": 120000},
-      {"name": "Spanish Latte", "description": "Sweet and creamy espresso with condensed milk", "price": 140000},
-      {"name": "Flavored Caffe Latte (Caramel – Vanilla – Hazelnut)", "description": "Choice of caramel, vanilla, or hazelnut syrup", "price": 140000},
-      {"name": "Hot Chocolate", "description": "Silky Belgian chocolate melted to perfection", "price": 120000}
+      {
+        "name": "Espresso",
+        "description": "Rich and bold single shot of pure Italian espresso",
+        "price": 50
+      },
+      {
+        "name": "Cappuccino",
+        "description": "Velvety steamed milk over a perfect espresso base",
+        "price": 100
+      },
+      {
+        "name": "Mocaccino",
+        "description": "Rich chocolate meets bold espresso and steamed milk",
+        "price": 150
+      },
+      {
+        "name": "Latte macchiato",
+        "description": "Layered espresso with steamed milk and foam",
+        "price": 150
+      },
+      {
+        "name": "Spanish Latte",
+        "description": "Sweet and creamy espresso with condensed milk",
+        "price": 150
+      },
+      {
+        "name": "Flavored Caffe Latte (Caramel – Vanilla – Hazelnut)",
+        "description": "Choice of caramel, vanilla, or hazelnut syrup",
+        "price": 150
+      },
+      {
+        "name": "Hot Chocolate",
+        "description": "Silky Belgian chocolate melted to perfection",
+        "price": 100
+      }
     ]
   },
   {
@@ -18,13 +46,41 @@
     "title": "Frappe",
     "icon": "🧋",
     "items": [
-      {"name": "Caramel Frappe", "description": "Icy blended coffee with buttery caramel", "price": 160000},
-      {"name": "Mocha Frappe", "description": "Chocolate lovers' frozen coffee dream", "price": 160000},
-      {"name": "Vanilla Frappe", "description": "Smooth vanilla bean blended with ice and coffee", "price": 140000},
-      {"name": "Hazelnut Frappe", "description": "Toasty hazelnut blended with creamy coffee", "price": 160000},
-      {"name": "Salted Caramel Frappe", "description": "Perfect balance of sweet and salty", "price": 160000},
-      {"name": "Lotus Frappe", "description": "Biscoff cookie butter blended to perfection", "price": 180000},
-      {"name": "Oreo Frappe", "description": "Crushed Oreo cookies in a creamy frozen base", "price": 180000}
+      {
+        "name": "Caramel Frappe",
+        "description": "Icy blended coffee with buttery caramel",
+        "price": 150
+      },
+      {
+        "name": "Mocha Frappe",
+        "description": "Chocolate lovers' frozen coffee dream",
+        "price": 150
+      },
+      {
+        "name": "Vanilla Frappe",
+        "description": "Smooth vanilla bean blended with ice and coffee",
+        "price": 150
+      },
+      {
+        "name": "Hazelnut Frappe",
+        "description": "Toasty hazelnut blended with creamy coffee",
+        "price": 150
+      },
+      {
+        "name": "Salted Caramel Frappe",
+        "description": "Perfect balance of sweet and salty",
+        "price": 150
+      },
+      {
+        "name": "Lotus Frappe",
+        "description": "Biscoff cookie butter blended to perfection",
+        "price": 150
+      },
+      {
+        "name": "Oreo Frappe",
+        "description": "Crushed Oreo cookies in a creamy frozen base",
+        "price": 150
+      }
     ]
   },
   {
@@ -32,12 +88,36 @@
     "title": "Milk Shake",
     "icon": "🥤",
     "items": [
-      {"name": "Chocolate", "description": "Thick and creamy chocolate indulgence", "price": 140000},
-      {"name": "Vanilla", "description": "Classic vanilla bean shake, rich and smooth", "price": 140000},
-      {"name": "Oreo", "description": "Crushed Oreo cookies in a creamy shake", "price": 160000},
-      {"name": "Lotus", "description": "Biscoff cookie butter blended shake", "price": 160000},
-      {"name": "Strawberry", "description": "Fresh strawberries blended with real cream", "price": 140000},
-      {"name": "Red Berries", "description": "A mix of sweet and tart red berries", "price": 160000}
+      {
+        "name": "Chocolate",
+        "description": "Thick and creamy chocolate indulgence",
+        "price": 170
+      },
+      {
+        "name": "Vanilla",
+        "description": "Classic vanilla bean shake, rich and smooth",
+        "price": 170
+      },
+      {
+        "name": "Oreo",
+        "description": "Crushed Oreo cookies in a creamy shake",
+        "price": 200
+      },
+      {
+        "name": "Lotus",
+        "description": "Biscoff cookie butter blended shake",
+        "price": 200
+      },
+      {
+        "name": "Strawberry",
+        "description": "Fresh strawberries blended with real cream",
+        "price": 200
+      },
+      {
+        "name": "Red Berries",
+        "description": "A mix of sweet and tart red berries",
+        "price": 200
+      }
     ]
   },
   {
@@ -45,11 +125,31 @@
     "title": "Smoothie",
     "icon": "🍓",
     "items": [
-      {"name": "Peach", "description": "Fresh and juicy peach smoothie", "price": 160000},
-      {"name": "Blueberry", "description": "Wild blueberry blast", "price": 160000},
-      {"name": "Strawberry", "description": "Classic strawberry smoothie", "price": 160000},
-      {"name": "Passion Fruit", "description": "Tropical and zingy passion fruit", "price": 180000},
-      {"name": "Mango", "description": "Tropical mango delight", "price": 160000}
+      {
+        "name": "Peach",
+        "description": "Fresh and juicy peach smoothie",
+        "price": 150
+      },
+      {
+        "name": "Blueberry",
+        "description": "Wild blueberry blast",
+        "price": 150
+      },
+      {
+        "name": "Strawberry",
+        "description": "Classic strawberry smoothie",
+        "price": 150
+      },
+      {
+        "name": "Passion Fruit",
+        "description": "Tropical and zingy passion fruit",
+        "price": 150
+      },
+      {
+        "name": "Mango",
+        "description": "Tropical mango delight",
+        "price": 150
+      }
     ]
   },
   {
@@ -57,14 +157,46 @@
     "title": "Iced Drinks",
     "icon": "🧊",
     "items": [
-      {"name": "Iced Latte", "description": "Smooth cold milk with a shot of espresso", "price": 140000},
-      {"name": "Iced Latte Caramel", "description": "Iced latte with sweet caramel drizzle", "price": 160000},
-      {"name": "Iced Latte Vanilla", "description": "Iced latte with smooth vanilla syrup", "price": 160000},
-      {"name": "Iced Coffee", "description": "Classic chilled coffee over ice", "price": 120000},
-      {"name": "Iced Mocha", "description": "Chocolate espresso served refreshingly cold", "price": 140000},
-      {"name": "Ice Tea", "description": "Classic freshly brewed iced tea", "price": 100000},
-      {"name": "Ice Tea Peach", "description": "Sweet peach-infused iced tea", "price": 120000},
-      {"name": "Ice Tea Lemon", "description": "Zesty lemon-infused iced tea", "price": 120000}
+      {
+        "name": "Iced Latte",
+        "description": "Smooth cold milk with a shot of espresso",
+        "price": 150
+      },
+      {
+        "name": "Iced Latte Caramel",
+        "description": "Iced latte with sweet caramel drizzle",
+        "price": 180
+      },
+      {
+        "name": "Iced Latte Vanilla",
+        "description": "Iced latte with smooth vanilla syrup",
+        "price": 180
+      },
+      {
+        "name": "Iced Coffee",
+        "description": "Classic chilled coffee over ice",
+        "price": 120
+      },
+      {
+        "name": "Iced Mocha",
+        "description": "Chocolate espresso served refreshingly cold",
+        "price": 150
+      },
+      {
+        "name": "Ice Tea",
+        "description": "Classic freshly brewed iced tea",
+        "price": 100
+      },
+      {
+        "name": "Ice Tea Peach",
+        "description": "Sweet peach-infused iced tea",
+        "price": 130
+      },
+      {
+        "name": "Ice Tea Lemon",
+        "description": "Zesty lemon-infused iced tea",
+        "price": 130
+      }
     ]
   },
   {
@@ -72,10 +204,26 @@
     "title": "Refreshers",
     "icon": "🍹",
     "items": [
-      {"name": "Passion Mango", "description": "Exotic passion fruit and mango blend", "price": 160000},
-      {"name": "Red Berries", "description": "Mixed red berry refresher", "price": 160000},
-      {"name": "Peachy Lime", "description": "Sweet peach with a lime zing", "price": 160000},
-      {"name": "Kiwi Apple", "description": "Fresh kiwi and crisp apple", "price": 160000}
+      {
+        "name": "Passion Mango",
+        "description": "Exotic passion fruit and mango blend",
+        "price": 150
+      },
+      {
+        "name": "Red Berries",
+        "description": "Mixed red berry refresher",
+        "price": 150
+      },
+      {
+        "name": "Peachy Lime",
+        "description": "Sweet peach with a lime zing",
+        "price": 150
+      },
+      {
+        "name": "Kiwi Apple",
+        "description": "Fresh kiwi and crisp apple",
+        "price": 150
+      }
     ]
   },
   {
@@ -83,39 +231,166 @@
     "title": "Crepe",
     "icon": "🥞",
     "items": [
-      {"name": "Crepe Nutella", "description": "Warm crêpe filled with gooey Nutella", "price": 160000},
-      {"name": "Banana Crêpe", "description": "Nutella and fresh banana", "price": 180000},
-      {"name": "Brownie Crêpe", "description": "Crêpe filled with our signature brownie", "price": 200000},
-      {"name": "Brownie Crêpe Roll", "description": "Rolled crêpe with brownie filling", "price": 220000},
-      {"name": "Burger Crepe", "description": "Unique burger-style folded crêpe", "price": 240000},
-      {"name": "Baghdad Crêpe", "description": "Special Baghdad-inspired filling", "price": 200000},
-      {"name": "Crêpe Bounty", "description": "Coconut and chocolate delight", "price": 180000},
-      {"name": "Crêpe Snickers", "description": "Peanut, caramel and chocolate", "price": 180000},
-      {"name": "Crêpe Dubaii", "description": "Special Dubai-style crêpe", "price": 240000},
-      {"name": "Crêpe Ice Cream", "description": "Warm crêpe with a scoop of ice cream", "price": 200000},
-      {"name": "Crêpe KitKat", "description": "Crunchy KitKat filling", "price": 180000},
-      {"name": "Crêpe Mango Roll", "description": "Fresh mango rolled in a crêpe", "price": 200000},
-      {"name": "Crêpe Mars", "description": "Caramel and chocolate Mars filling", "price": 180000},
-      {"name": "Crêpe Mellowz", "description": "Fluffy marshmallow filling", "price": 180000},
-      {"name": "Crêpe Milka", "description": "Milk chocolate Milka filling", "price": 180000},
-      {"name": "Crêpe Oreo", "description": "Crushed Oreo and cream", "price": 180000},
-      {"name": "Crêpe Pistachio", "description": "Our signature pistachio cream", "price": 220000},
-      {"name": "Crêpe Twix", "description": "Caramel and biscuitness", "price": 180000},
-      {"name": "Fettuccine Crêpes", "description": "Sliced crêpe ribbons with chocolate", "price": 200000},
-      {"name": "Fruity Crêpes", "description": "Mixed seasonal fruits", "price": 200000},
-      {"name": "Galaxy Crêpes", "description": "Smooth Galaxy chocolate", "price": 180000},
-      {"name": "Kinder Crêpes", "description": "White chocolate Kinder Bueno filling", "price": 200000},
-      {"name": "Lottus Crêpes", "description": "Lotus Biscoff spread", "price": 180000},
-      {"name": "Oreo Crêpe", "description": "Oreo cookie filling", "price": 180000},
-      {"name": "Sandwich Achta + Honey + Nuts", "description": "Traditional cream, honey, and nuts", "price": 220000},
-      {"name": "Sandwich Crêpe", "description": "Folded sandwich-style crêpe", "price": 180000},
-      {"name": "Sushi Crêpe", "description": "Bite-sized sushi-style crêpe rolls", "price": 240000},
-      {"name": "Crêpe White + Lottus", "description": "White chocolate and Lotus mix", "price": 200000},
-      {"name": "Crêpe Dark Chocolate", "description": "Intense dark chocolate filling", "price": 180000},
-      {"name": "Konafa Crêpe", "description": "Crêpe with a Konafa twist", "price": 220000},
-      {"name": "Shees Crêpe", "description": "Our house special crêpe", "price": 240000},
-      {"name": "Crispy Crêpe", "description": "Crêpe with a satisfying crunch", "price": 200000},
-      {"name": "Mix Crêpe Extra", "description": "The ultimate mix of toppings", "price": 260000}
+      {
+        "name": "Crepe Nutella",
+        "description": "Warm crêpe filled with gooey Nutella",
+        "price": 200
+      },
+      {
+        "name": "Banana Crêpe",
+        "description": "Nutella and fresh banana",
+        "price": 250
+      },
+      {
+        "name": "Brownie Crêpe",
+        "description": "Crêpe filled with our signature brownie",
+        "price": 300
+      },
+      {
+        "name": "Brownie Crêpe Roll",
+        "description": "Rolled crêpe with brownie filling",
+        "price": 400
+      },
+      {
+        "name": "Burger Crepe",
+        "description": "Unique burger-style folded crêpe",
+        "price": 450
+      },
+      {
+        "name": "Crêpe Bounty",
+        "description": "Coconut and chocolate delight",
+        "price": 250
+      },
+      {
+        "name": "Crêpe Snickers",
+        "description": "Peanut, caramel and chocolate",
+        "price": 250
+      },
+      {
+        "name": "Crêpe Dubaii",
+        "description": "Special Dubai-style crêpe",
+        "price": 450
+      },
+      {
+        "name": "Crêpe Ice Cream",
+        "description": "Warm crêpe with a scoop of ice cream",
+        "price": 300
+      },
+      {
+        "name": "Crêpe KitKat",
+        "description": "Crunchy KitKat filling",
+        "price": 250
+      },
+      {
+        "name": "Crêpe Mango Roll",
+        "description": "Fresh mango rolled in a crêpe",
+        "price": 300
+      },
+      {
+        "name": "Crêpe Mars",
+        "description": "Caramel and chocolate Mars filling",
+        "price": 250
+      },
+      {
+        "name": "Crêpe Mellowz",
+        "description": "Fluffy marshmallow filling",
+        "price": 300
+      },
+      {
+        "name": "Crêpe Milka",
+        "description": "Milk chocolate Milka filling",
+        "price": 300
+      },
+      {
+        "name": "Crêpe Oreo",
+        "description": "Crushed Oreo and cream",
+        "price": 250
+      },
+      {
+        "name": "Crêpe Pistachio",
+        "description": "Our signature pistachio cream",
+        "price": 400
+      },
+      {
+        "name": "Crêpe Twix",
+        "description": "Caramel and biscuitness",
+        "price": 250
+      },
+      {
+        "name": "Fettuccine Crêpes",
+        "description": "Sliced crêpe ribbons with chocolate",
+        "price": 350
+      },
+      {
+        "name": "Fruity Crêpes",
+        "description": "Mixed seasonal fruits",
+        "price": 300
+      },
+      {
+        "name": "Galaxy Crêpes",
+        "description": "Smooth Galaxy chocolate",
+        "price": 250
+      },
+      {
+        "name": "Kinder Crêpes",
+        "description": "White chocolate Kinder Bueno filling",
+        "price": 300
+      },
+      {
+        "name": "Lottus Crêpes",
+        "description": "Lotus Biscoff spread",
+        "price": 300
+      },
+      {
+        "name": "Oreo Crêpe",
+        "description": "Oreo cookie filling",
+        "price": 250
+      },
+      {
+        "name": "Sandwich Achta + Honey + Nuts",
+        "description": "Traditional cream, honey, and nuts",
+        "price": 300
+      },
+      {
+        "name": "Sandwich Crêpe",
+        "description": "Folded sandwich-style crêpe",
+        "price": 400
+      },
+      {
+        "name": "Sushi Crêpe",
+        "description": "Bite-sized sushi-style crêpe rolls",
+        "price": 400
+      },
+      {
+        "name": "Crêpe White + Lottus",
+        "description": "White chocolate and Lotus mix",
+        "price": 350
+      },
+      {
+        "name": "Crêpe Dark Chocolate",
+        "description": "Intense dark chocolate filling",
+        "price": 300
+      },
+      {
+        "name": "Konafa Crêpe",
+        "description": "Crêpe with a Konafa twist",
+        "price": 350
+      },
+      {
+        "name": "Shees Crêpe",
+        "description": "Our house special crêpe",
+        "price": 200
+      },
+      {
+        "name": "Crispy Crêpe",
+        "description": "Crêpe with a satisfying crunch",
+        "price": 300
+      },
+      {
+        "name": "Mix Crêpe Extra",
+        "description": "The ultimate mix of toppings",
+        "price": 500
+      }
     ]
   },
   {
@@ -123,13 +398,57 @@
     "title": "Cocktails",
     "icon": "🍸",
     "items": [
-      {"name": "Avocado", "description": "Fresh and creamy avocado juice", "sizes": [{"label": "Small", "price": 120000}, {"label": "Medium", "price": 160000}, {"label": "Large", "price": 200000}]},
-      {"name": "Avocado Lotus", "description": "Avocado with Lotus Biscoff", "sizes": [{"label": "Small", "price": 160000}, {"label": "Medium", "price": 200000}, {"label": "Large", "price": 240000}]},
-      {"name": "Avocado Nutella", "description": "Avocado with Nutella swirl", "sizes": [{"label": "Small", "price": 160000}, {"label": "Medium", "price": 200000}, {"label": "Large", "price": 240000}]},
-      {"name": "Avocado Pistachio", "description": "Avocado with signature pistachio", "sizes": [{"label": "Small", "price": 180000}, {"label": "Medium", "price": 240000}, {"label": "Large", "price": 280000}]},
-      {"name": "Strawberry Cocktail", "description": "Fresh strawberry blend", "sizes": [{"label": "Small", "price": 120000}, {"label": "Medium", "price": 160000}, {"label": "Large", "price": 200000}]},
-      {"name": "Chopped Cocktail", "description": "Freshly chopped seasonal fruits", "sizes": [{"label": "Small", "price": 160000}, {"label": "Medium", "price": 200000}, {"label": "Large", "price": 240000}]},
-      {"name": "Cocktail Milk & Banana", "description": "Classic creamy milk and banana", "price": 140000}
+      {
+        "name": "Avocado",
+        "description": "Fresh and creamy avocado juice",
+        "sizes": [
+          { "label": "Small", "price": 250 },
+          { "label": "Medium", "price": 350 },
+          { "label": "Large", "price": 450 }
+        ]
+      },
+      {
+        "name": "Avocado Lotus",
+        "description": "Avocado with Lotus Biscoff",
+        "price": 350
+      },
+      {
+        "name": "Avocado Nutella",
+        "description": "Avocado with Nutella swirl",
+        "price": 350
+      },
+      {
+        "name": "Avocado Pistachio",
+        "description": "Avocado with signature pistachio",
+        "price": 350
+      },
+      {
+        "name": "Strawberry Cocktail",
+        "description": "Fresh strawberry blend",
+        "sizes": [
+          { "label": "Small", "price": 200 },
+          { "label": "Medium", "price": 300 },
+          { "label": "Large", "price": 400 }
+        ]
+      },
+      {
+        "name": "Chopped Cocktail",
+        "description": "Freshly chopped seasonal fruits",
+        "sizes": [
+          { "label": "Small", "price": 250 },
+          { "label": "Medium", "price": 350 },
+          { "label": "Large", "price": 400 }
+        ]
+      },
+      {
+        "name": "Cocktail Milk & Banana",
+        "description": "Classic creamy milk and banana",
+        "sizes": [
+          { "label": "Small", "price": 150 },
+          { "label": "Medium", "price": 200 },
+          { "label": "Large", "price": 250 }
+        ]
+      }
     ]
   },
   {
@@ -137,13 +456,41 @@
     "title": "Croissant",
     "icon": "🥐",
     "items": [
-      {"name": "Croissant Nutella", "description": "Flaky croissant with Nutella", "price": 120000},
-      {"name": "Croissant Lottus", "description": "Flaky croissant with Lotus cream", "price": 120000},
-      {"name": "Croissant Pistachio", "description": "Flaky croissant with pistachio cream", "price": 140000},
-      {"name": "Croissant White", "description": "Flaky croissant with white chocolate", "price": 120000},
-      {"name": "Croissant Ice Cream", "description": "Croissant with a scoop of ice cream", "price": 160000},
-      {"name": "Shees Croissant", "description": "Our signature special croissant", "price": 180000},
-      {"name": "Croissant Nutella + Oreo", "description": "Nutella and Oreo cookie crunch", "price": 140000}
+      {
+        "name": "Croissant Nutella",
+        "description": "Flaky croissant with Nutella",
+        "price": 200
+      },
+      {
+        "name": "Croissant Lottus",
+        "description": "Flaky croissant with Lotus cream",
+        "price": 250
+      },
+      {
+        "name": "Croissant Pistachio",
+        "description": "Flaky croissant with pistachio cream",
+        "price": 300
+      },
+      {
+        "name": "Croissant White",
+        "description": "Flaky croissant with white chocolate",
+        "price": 200
+      },
+      {
+        "name": "Croissant Ice Cream",
+        "description": "Croissant with a scoop of ice cream",
+        "price": 300
+      },
+      {
+        "name": "Shees Croissant",
+        "description": "Our signature special croissant",
+        "price": 200
+      },
+      {
+        "name": "Croissant Nutella + Oreo",
+        "description": "Nutella and Oreo cookie crunch",
+        "price": 300
+      }
     ]
   },
   {
@@ -151,20 +498,76 @@
     "title": "Brownies",
     "icon": "🍫",
     "items": [
-      {"name": "Brownies Nutella", "description": "Rich brownie topped with Nutella", "price": 140000},
-      {"name": "Brownies Extra Chocolate", "description": "For the ultimate chocolate lover", "price": 160000},
-      {"name": "Brownies White Chocolate", "description": "Topped with smooth white chocolate", "price": 140000},
-      {"name": "Brownies Lottuse", "description": "Topped with Lotus Biscoff", "price": 140000},
-      {"name": "Brownies Pistachio", "description": "Topped with signature pistachio cream", "price": 180000},
-      {"name": "Brownies Dubaii", "description": "Special Dubai-style brownie", "price": 200000},
-      {"name": "Brownies Kinder", "description": "Topped with Kinder chocolate", "price": 160000},
-      {"name": "Brownies Snickers", "description": "Topped with Snickers and peanuts", "price": 160000},
-      {"name": "Brownies KitKat", "description": "Topped with KitKat chocolate", "price": 160000},
-      {"name": "Brownies Mars", "description": "Topped with Mars chocolate", "price": 160000},
-      {"name": "Brownies Bounty", "description": "Topped with coconut Bounty", "price": 160000},
-      {"name": "Brownies Oreo", "description": "Topped with Oreo cookies", "price": 160000},
-      {"name": "Brownies Cup", "description": "Brownie bites in a cup", "price": 140000},
-      {"name": "Brownies Ice Cream", "description": "Warm brownie with ice cream", "price": 180000}
+      {
+        "name": "Brownies Nutella",
+        "description": "Rich brownie topped with Nutella",
+        "price": 250
+      },
+      {
+        "name": "Brownies Extra Chocolate",
+        "description": "For the ultimate chocolate lover",
+        "price": 300
+      },
+      {
+        "name": "Brownies White Chocolate",
+        "description": "Topped with smooth white chocolate",
+        "price": 250
+      },
+      {
+        "name": "Brownies Lottuse",
+        "description": "Topped with Lotus Biscoff",
+        "price": 300
+      },
+      {
+        "name": "Brownies Pistachio",
+        "description": "Topped with signature pistachio cream",
+        "price": 400
+      },
+      {
+        "name": "Brownies Dubaii",
+        "description": "Special Dubai-style brownie",
+        "price": 450
+      },
+      {
+        "name": "Brownies Kinder",
+        "description": "Topped with Kinder chocolate",
+        "price": 350
+      },
+      {
+        "name": "Brownies Snickers",
+        "description": "Topped with Snickers and peanuts",
+        "price": 300
+      },
+      {
+        "name": "Brownies KitKat",
+        "description": "Topped with KitKat chocolate",
+        "price": 300
+      },
+      {
+        "name": "Brownies Mars",
+        "description": "Topped with Mars chocolate",
+        "price": 300
+      },
+      {
+        "name": "Brownies Bounty",
+        "description": "Topped with coconut Bounty",
+        "price": 300
+      },
+      {
+        "name": "Brownies Oreo",
+        "description": "Topped with Oreo cookies",
+        "price": 300
+      },
+      {
+        "name": "Brownies Cup",
+        "description": "Brownie bites in a cup",
+        "price": 200
+      },
+      {
+        "name": "Brownies Ice Cream",
+        "description": "Warm brownie with ice cream",
+        "price": 300
+      }
     ]
   },
   {
@@ -172,8 +575,16 @@
     "title": "Argile",
     "icon": "💨",
     "items": [
-      {"name": "Argile Tefehten", "description": "Double apple flavour shisha", "price": 300000},
-      {"name": "Argile Na3na3", "description": "Fresh mint flavour shisha", "price": 300000}
+      {
+        "name": "Argile Tefehten",
+        "description": "Double apple flavour shisha",
+        "price": 250
+      },
+      {
+        "name": "Argile Na3na3",
+        "description": "Fresh mint flavour shisha",
+        "price": 200
+      }
     ]
   }
 ]
