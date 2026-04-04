@@ -402,7 +402,7 @@
         "name": "Avocado",
         "description": "Fresh and creamy avocado juice",
         "sizes": [
-          { "label": "Small", "price": 250 },
+          { "label": "Small", "price": 300 },
           { "label": "Medium", "price": 350 },
           { "label": "Large", "price": 450 }
         ]
@@ -435,9 +435,9 @@
         "name": "Chopped Cocktail",
         "description": "Freshly chopped seasonal fruits",
         "sizes": [
-          { "label": "Small", "price": 250 },
-          { "label": "Medium", "price": 350 },
-          { "label": "Large", "price": 400 }
+          { "label": "Small", "price": 300 },
+          { "label": "Medium", "price": 400 },
+          { "label": "Large", "price": 500 }
         ]
       },
       {
