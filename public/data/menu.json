@@ -7,7 +7,7 @@
       {
         "name": "Espresso",
         "description": "Rich and bold single shot of pure Italian espresso",
-        "price": 50
+        "price": 70
       },
       {
         "name": "Cappuccino",
@@ -284,7 +284,7 @@
       {
         "name": "Crêpe Mango Roll",
         "description": "Fresh mango rolled in a crêpe",
-        "price": 300
+        "price": 350
       },
       {
         "name": "Crêpe Mars",
@@ -319,12 +319,12 @@
       {
         "name": "Fettuccine Crêpes",
         "description": "Sliced crêpe ribbons with chocolate",
-        "price": 350
+        "price": 400
       },
       {
         "name": "Fruity Crêpes",
         "description": "Mixed seasonal fruits",
-        "price": 300
+        "price": 350
       },
       {
         "name": "Galaxy Crêpes",
@@ -384,12 +384,55 @@
       {
         "name": "Crispy Crêpe",
         "description": "Crêpe with a satisfying crunch",
-        "price": 300
+        "price": 350
       },
       {
         "name": "Mix Crêpe Extra",
         "description": "The ultimate mix of toppings",
         "price": 500
+      }
+    ]
+  },
+
+  {
+    "id": "mini-pan-cake",
+    "title": "Mini Pan Cake",
+    "icon": "🥞",
+    "items": [
+      {
+        "name": "Mini Nutella",
+        "description": "Mini pancakes topped with rich Nutella",
+        "price": 300
+      },
+      {
+        "name": "Mini Pan Cake Lotus",
+        "description": "Mini pancakes topped with Lotus Biscoff spread",
+        "price": 450
+      },
+      {
+        "name": "Mini Pan Cake Pistachio",
+        "description": "Mini pancakes topped with signature pistachio cream",
+        "price": 500
+      },
+      {
+        "name": "Mini Pan Cake Fruit",
+        "description": "Mini pancakes topped with fresh mixed fruit",
+        "price": 450
+      },
+      {
+        "name": "Mini Pan Cake Mix x4",
+        "description": "Mini pancakes with a mix of 4 toppings",
+        "price": 450
+      },
+      {
+        "name": "Pan Cake Burger",
+        "description": "Burger-style stacked pancake creation",
+        "price": 450
+      },
+      {
+        "name": "Pan Cake Honey & Nuts",
+        "description": "Mini pancakes topped with honey and crunchy nuts",
+        "price": 450
       }
     ]
   },
@@ -501,22 +544,22 @@
       {
         "name": "Brownies Nutella",
         "description": "Rich brownie topped with Nutella",
-        "price": 250
+        "price": 300
       },
       {
         "name": "Brownies Extra Chocolate",
         "description": "For the ultimate chocolate lover",
-        "price": 300
+        "price": 350
       },
       {
         "name": "Brownies White Chocolate",
         "description": "Topped with smooth white chocolate",
-        "price": 250
+        "price": 300
       },
       {
         "name": "Brownies Lottuse",
         "description": "Topped with Lotus Biscoff",
-        "price": 300
+        "price": 350
       },
       {
         "name": "Brownies Pistachio",
@@ -536,27 +579,27 @@
       {
         "name": "Brownies Snickers",
         "description": "Topped with Snickers and peanuts",
-        "price": 300
+        "price": 350
       },
       {
         "name": "Brownies KitKat",
         "description": "Topped with KitKat chocolate",
-        "price": 300
+        "price": 350
       },
       {
         "name": "Brownies Mars",
         "description": "Topped with Mars chocolate",
-        "price": 300
+        "price": 350
       },
       {
         "name": "Brownies Bounty",
         "description": "Topped with coconut Bounty",
-        "price": 300
+        "price": 350
       },
       {
         "name": "Brownies Oreo",
         "description": "Topped with Oreo cookies",
-        "price": 300
+        "price": 350
       },
       {
         "name": "Brownies Cup",
@@ -566,7 +609,7 @@
       {
         "name": "Brownies Ice Cream",
         "description": "Warm brownie with ice cream",
-        "price": 300
+        "price": 350
       }
     ]
   },
